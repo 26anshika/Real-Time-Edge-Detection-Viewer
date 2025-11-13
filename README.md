@@ -86,20 +86,6 @@ Sync Gradle and build the project.
 
 Run on a physical Android device (for camera support).
 
-🌐 Web Viewer Setup
-
-Navigate to /web
-
-Install dependencies (if any):
-
-npm install
-
-
-Build and run:
-
-npx tsc
-open index.html
-
 📸 Screenshots / Demo
 Android Edge Detection	Web Viewer
 
@@ -130,7 +116,3 @@ Anshika Yadav
 📧 2k22.csai.2211504@gmail.com
 🌐 [https://github.com/26anshika]
 
-
----If yes — please share:
-- your **GitHub username**  
-- the **email or link** you’d like shown in the author section
