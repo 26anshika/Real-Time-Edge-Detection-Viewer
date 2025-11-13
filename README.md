@@ -94,22 +94,19 @@ Android Edge Detection	Web Viewer
 
 
  Project Structure
-android-opencv-opengl-rnd-intern-assessment/
-├── app/                # Android Java/Kotlin code
-│   ├── MainActivity.kt
-│   ├── CameraManager.kt
-│   └── JNIInterface.kt
-├── jni/                # Native C++ OpenCV code
-│   ├── native-lib.cpp
-│   └── image_processor.cpp
-├── gl/                 # OpenGL renderer classes
-│   ├── GLRenderer.cpp
-│   └── GLShaderUtils.cpp
-├── web/                # TypeScript web viewer
-│   ├── index.html
-│   ├── main.ts
-│   └── tsconfig.json
-└── README.md
+edge-viewer/
+  ├─ app/                       # Android app module
+  │   ├─ src/main/java/...      # MainActivity.kt, renderer
+  │   ├─ src/main/cpp/          # native-lib.cpp, CMakeLists.txt
+  │   └─ build.gradle
+  ├─ gl/                        # (optional separation) GLSurface renderer classes
+  ├─ web/
+  │   ├─ index.html
+  │   ├─ src/viewer.ts
+  │   └─ sample.jpg
+  ├─ settings.gradle
+  └─ gradle/ gradlew files...
+
 
 👤 Author
 Anshika Yadav
